@@ -5,7 +5,14 @@ import Header from './src/util/model/components/Base/Header/Header';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Header />
+
+      <Header titulo="Empréstimo Fácil" corFundo="#bbb"/>
+      <Header titulo="O seu aplicativo de empréstimo"
+      tamanho="M"/>
+
+      {/*<Header titulo="blabla" 
+      tamanho="P"/>*/}
+
       <View style={styles.body}>
         <Text>Botafogo</Text>
       </View>
